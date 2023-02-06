@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Song</title>
+    <script type="module" src="adding_song.js"></script>
+</head>
+<body>
+    <h1>Adding a new Song</h1>
+    <br><br>
+
+    <p>To add a new song to the database, enter some details below:</p>
+    <br>
+    <!-- Don't need a form for this as we're doing things currently from AJAX!-->
+        <p>Title of Song: <input type="text" id="titleOfSong" name="songTitle" value="" /></p>
+        <p>Song's Artist: <input type="text" id="artistOfSong" name="songArtist" value="" /></p>
+        <p>Year of release: <input type="text" id="yearOfSong" name="songRelYear" value="" /> </p>
+        <p>Number of downloads: <input type="text" id="numDownloadOfSong" name="songDownloadNum" value="" /> </p>
+        <p>Song's selling price: <input type="text" id="priceOfSong" name="songSellPrice" value="" /> </p>
+        <p>Quantity of song stock received: <input type="text" id="quantityOfSong" name="songStockQty" value="" /> </p>
+        <input type="button" value="Add!" id="addSongBtn" />
+</body>
+</html>
